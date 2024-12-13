@@ -3,7 +3,7 @@ Contributors: the-rock, pagup, freemius
 Tags: Pinterest tag, Pinterest ads, Pinterest conversion tracking, Pinterest for business, Pinterest conversion tag
 Requires at least: 4.1
 Requires PHP: 5.6
-Tested up to: 6.6
+Tested up to: 6.7
 Stable tag: 1.2.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
