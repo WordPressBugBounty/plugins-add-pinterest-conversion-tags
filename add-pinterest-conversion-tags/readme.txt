@@ -4,7 +4,7 @@ Tags: Pinterest tag, Pinterest ads, Pinterest conversion tracking, Pinterest for
 Requires at least: 4.1
 Requires PHP: 5.6
 Tested up to: 6.7
-Stable tag: 1.2.5
+Stable tag: 1.2.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -131,4 +131,7 @@ Your base code is correctly implemented if the tag shows a ‘verified’ status
 * 🚀 BREAKING: New auto code settings for Metabox and Single Post events.
 
 = 1.2.5 =
+* 🐛 FIX: Security update.
+
+= 1.2.6 =
 * 🐛 FIX: Security update.

@@ -2,12 +2,11 @@
 
 namespace Pagup\Pctag\Controllers;
 
-use  Pagup\Pctag\Core\Option ;
-use  Pagup\Pctag\Core\Plugin ;
-use  Pagup\Pctag\Core\Request ;
-class SettingsController
-{
-    protected  $safe = array(
+use Pagup\Pctag\Core\Option;
+use Pagup\Pctag\Core\Plugin;
+use Pagup\Pctag\Core\Request;
+class SettingsController {
+    protected $safe = [
         "enable_pctag",
         "search_event",
         "addtocart_event",
@@ -22,21 +21,20 @@ class SettingsController
         'pctag-faq',
         'pctag-recs',
         "pctag_remove_settings"
-    ) ;
-    public function add_settings()
-    {
+    ];
+
+    public function add_settings() {
         add_menu_page(
             'Pinterest Conversion Tags Settings',
             'Pinterest Tags',
             'manage_options',
             'pctag',
-            array( &$this, 'page' ),
+            array(&$this, 'page'),
             'dashicons-pinterest'
         );
     }
-    
-    public function page()
-    {
+
+    public function page() {
         if ( !current_user_can( 'manage_options' ) ) {
             wp_die( __( 'Sorry, you are not allowed to access this page.', "add-pinterest-conversion-tags" ) );
         }
@@ -45,7 +43,6 @@ class SettingsController
             wp_die( __( 'Sorry, you are not allowed to edit this page. Ask your administrator for assistance.', "add-pinterest-conversion-tags" ) );
         }
         $success = '';
-        
         if ( isset( $_POST['update'] ) ) {
             if ( function_exists( 'current_user_can' ) && !current_user_can( 'manage_options' ) && !current_user_can( 'unfiltered_html' ) ) {
                 die( 'Sorry, not allowed...' );
@@ -66,12 +63,11 @@ class SettingsController
             ];
             update_option( 'pctag', $options );
             // update options
-            echo  '<div class="notice pctag-notice notice-success is-dismissible"><p><strong>' . esc_html__( 'Settings saved.' ) . '</strong></p></div>' ;
+            echo '<div class="notice pctag-notice notice-success is-dismissible"><p><strong>' . esc_html__( 'Settings saved.' ) . '</strong></p></div>';
         }
-        
         $options = new Option();
         $notification = new \Pagup\Pctag\Controllers\NotificationController();
-        echo  $notification->support() ;
+        echo $notification->support();
         //set active class for navigation tabs
         $active_tab = ( isset( $_GET['tab'] ) && in_array( $_GET['tab'], $this->safe ) ? sanitize_key( $_GET['tab'] ) : 'pctag-settings' );
         //Plugin::dd($_POST);
@@ -80,9 +76,9 @@ class SettingsController
         $purchase_url = "options-general.php?page=pctag-pricing";
         $get_pro = sprintf( wp_kses( __( '<a href="%s">Get Pro version</a> to enable', "add-pinterest-conversion-tags" ), array(
             'a' => array(
-            'href'   => array(),
-            'target' => array(),
-        ),
+                'href'   => array(),
+                'target' => array(),
+            ),
         ) ), esc_url( $purchase_url ) );
         // Return Views
         if ( $active_tab == 'pctag-settings' ) {
@@ -102,4 +98,5 @@ class SettingsController
     }
 
 }
+
 $settings = new SettingsController();
