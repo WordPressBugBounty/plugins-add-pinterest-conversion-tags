@@ -3,8 +3,8 @@ Contributors: the-rock, pagup, freemius
 Tags: Pinterest tag, Pinterest ads, Pinterest conversion tracking, Pinterest for business, Pinterest conversion tag
 Requires at least: 4.1
 Requires PHP: 5.6
-Tested up to: 6.9
-Stable tag: 1.2.6
+Tested up to: 7.0
+Stable tag: 1.2.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -86,6 +86,9 @@ Your base code is correctly implemented if the tag shows a ‘verified’ status
 2. Pctags - Pinterest conversion tags Settings Page
 
 == Changelog ==
+
+= 1.2.7 =
+* Update Freemius SDK to 2.13.1.
 
 = 1.0.0 =
 * Initial release.
