@@ -1,38 +1,40 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Pagup
+# Italian translations for Add Pinterest conversion tags for Pinterest Ads + Site verification package
+# Traduzioni italiane per il pacchetto Add Pinterest conversion tags for Pinterest Ads + Site verification.
+# Copyright (C) 2026 Pagup
 # This file is distributed under the same license as the Add Pinterest conversion tags for Pinterest Ads + Site verification package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Automatically generated, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Add Pinterest conversion tags for Pinterest Ads + Site "
 "verification 1.2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-18 23:43-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-06-18 23:17-0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Domain: add-pinterest-conversion-tags\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: admin\controllers\SettingsController.php:28
 #: premium\pctags-pinterest-conversion-tag-premium\admin\controllers\SettingsController.php:30
 msgid "Pinterest Conversion Tags Settings"
-msgstr ""
+msgstr "Impostazioni dei tag di conversione di Pinterest"
 
 #: admin\controllers\SettingsController.php:29
 #: premium\pctags-pinterest-conversion-tag-premium\admin\controllers\SettingsController.php:31
 msgid "Pinterest Tags"
-msgstr ""
+msgstr "Tag di Pinterest"
 
 #: admin\controllers\SettingsController.php:39
 #: premium\pctags-pinterest-conversion-tag-premium\admin\controllers\SettingsController.php:42
 msgid "Sorry, you are not allowed to access this page."
 msgstr ""
+"Spiacenti, non disponi delle autorizzazioni per accedere a questa pagina."
 
 #: admin\controllers\SettingsController.php:43
 #: premium\pctags-pinterest-conversion-tag-premium\admin\controllers\SettingsController.php:47
@@ -40,22 +42,24 @@ msgid ""
 "Sorry, you are not allowed to edit this page. Ask your administrator for "
 "assistance."
 msgstr ""
+"Spiacenti, non disponi delle autorizzazioni per modificare questa pagina. "
+"Chiedi assistenza al tuo amministratore."
 
 #: admin\controllers\SettingsController.php:66
 #: premium\pctags-pinterest-conversion-tag-premium\admin\controllers\SettingsController.php:91
 msgid "Settings saved."
-msgstr ""
+msgstr "Impostazioni salvate."
 
 #: admin\controllers\SettingsController.php:77
 #: premium\pctags-pinterest-conversion-tag-premium\admin\controllers\SettingsController.php:110
 #, php-format
 msgid "<a href=\"%s\">Get Pro version</a> to enable"
-msgstr ""
+msgstr "<a href=\"%s\">Ottieni la versione Pro</a> per attivare"
 
 #: admin\views\faq.view.php:7
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:7
 msgid "What is the Pinterest conversion tag ?"
-msgstr ""
+msgstr "Che cos'è il tag di conversione di Pinterest?"
 
 #: admin\views\faq.view.php:11
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:11
@@ -65,16 +69,20 @@ msgid ""
 "return on ad spend (RoAS) and create audiences to target on your Promoted "
 "Pins."
 msgstr ""
+"Il tag di Pinterest ti consente di tracciare le azioni che gli utenti "
+"compiono sul tuo sito web dopo aver visualizzato il tuo Pin promosso. Puoi "
+"usare queste informazioni per misurare il ritorno sulla spesa pubblicitaria "
+"(RoAS) e creare segmenti di pubblico da raggiungere con i tuoi Pin promossi."
 
 #: admin\views\faq.view.php:18
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:18
 msgid "How to create an «event»?"
-msgstr ""
+msgstr "Come si crea un « evento » ?"
 
 #: admin\views\faq.view.php:22
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:22
 msgid "This plugins provide 2 features:"
-msgstr ""
+msgstr "Questo plugin offre 2 funzionalità :"
 
 #: admin\views\faq.view.php:26
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:26
@@ -83,6 +91,10 @@ msgid ""
 "Manager) that will be perfectly placed on every page (between the <head> and "
 "</head> tags in HTML) on your website. You only need to provide your TAG ID"
 msgstr ""
+"La versione GRATUITA consente di aggiungere il codice di base (generato nel "
+"Conversion Tag Manager) che verrà collocato in modo perfetto su ogni pagina "
+"(tra i tag <head> e </head> nell'HTML) del tuo sito web. Devi solo fornire "
+"il tuo TAG ID"
 
 #: admin\views\faq.view.php:27
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:27
@@ -91,6 +103,10 @@ msgid ""
 "specific pages thanks to our META box feature. This META box allows you to "
 "create easily basic events and custom events with custom code if required."
 msgstr ""
+"La versione PRO consente di tracciare le conversioni a partire dai codici "
+"« evento » correttamente aggiunti su pagine specifiche grazie alla nostra "
+"funzionalità META box. Questa META box ti permette di creare con facilità "
+"eventi di base ed eventi personalizzati con codice su misura, se necessario."
 
 #: admin\views\faq.view.php:29
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:29
@@ -98,36 +114,38 @@ msgid ""
 "PageVisit: Record views of primary pages, such as product pages and article "
 "pages"
 msgstr ""
+"PageVisit: registra le visualizzazioni delle pagine principali, come le "
+"pagine prodotto e le pagine degli articoli"
 
 #: admin\views\faq.view.php:30
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:30
 msgid "ViewCategory:Record views of category pages"
-msgstr ""
+msgstr "ViewCategory: registra le visualizzazioni delle pagine di categoria"
 
 #: admin\views\faq.view.php:31
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:31
 msgid "AddToCart:Record when items are added to shopping carts"
-msgstr ""
+msgstr "AddToCart: registra quando gli articoli vengono aggiunti al carrello"
 
 #: admin\views\faq.view.php:32
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:32
 msgid "Checkout: Record completed transactions"
-msgstr ""
+msgstr "Checkout: registra le transazioni completate"
 
 #: admin\views\faq.view.php:33
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:33
 msgid "WatchVideo: Record video views"
-msgstr ""
+msgstr "WatchVideo: registra le visualizzazioni dei video"
 
 #: admin\views\faq.view.php:34
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:34
 msgid "Signup: Record sign ups for your products or services"
-msgstr ""
+msgstr "Signup: registra le iscrizioni ai tuoi prodotti o servizi"
 
 #: admin\views\faq.view.php:35
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:35
 msgid "Lead: Record interest in product or service"
-msgstr ""
+msgstr "Lead: registra l'interesse verso un prodotto o un servizio"
 
 #: admin\views\faq.view.php:36
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:36
@@ -135,16 +153,19 @@ msgid ""
 "Custom:to track a special event that you want to include in your conversion "
 "reporting."
 msgstr ""
+"Custom: per tracciare un evento speciale che vuoi includere nei tuoi report "
+"sulle conversioni."
 
 #: admin\views\faq.view.php:46
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:46
 msgid "Where to find the Pinterest tag ID?"
-msgstr ""
+msgstr "Dove trovare l'ID del tag di Pinterest?"
 
 #: admin\views\faq.view.php:50
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:50
 msgid "To find your Pinterest Conversion Tag, follow the steps below."
 msgstr ""
+"Per trovare il tuo Pinterest Conversion Tag, segui i passaggi qui sotto."
 
 #: admin\views\faq.view.php:54
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:54
@@ -153,6 +174,8 @@ msgid ""
 "Navigate to your Pinterest ad account at <a href=\"%s\" "
 "target=\"_blank\">https://ads.pinterest.com</a>."
 msgstr ""
+"Vai al tuo account pubblicitario Pinterest all'indirizzo <a href=\"%s\" "
+"target=\"_blank\">https://ads.pinterest.com</a>."
 
 #: admin\views\faq.view.php:55
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:55
@@ -160,21 +183,23 @@ msgid ""
 "Hover over \"Ads\" in the top lefthand corner and select \"Conversion "
 "tracking\" from the list."
 msgstr ""
+"Passa il cursore su « Ads » nell'angolo in alto a sinistra e seleziona "
+"« Conversion tracking » dall'elenco."
 
 #: admin\views\faq.view.php:56
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:56
 msgid "Click « Create Tag »."
-msgstr ""
+msgstr "Fai clic su « Create Tag »."
 
 #: admin\views\faq.view.php:57
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:57
 msgid "Name your tag"
-msgstr ""
+msgstr "Assegna un nome al tuo tag"
 
 #: admin\views\faq.view.php:58
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:58
 msgid "Click \"Generate code\"."
-msgstr ""
+msgstr "Fai clic su « Generate code »."
 
 #: admin\views\faq.view.php:59
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:59
@@ -183,11 +208,13 @@ msgid ""
 "You will see, in your code, numbers like <a href=\"%s\" "
 "target=\"_blank\">this</a> (in red). This is your TAG ID !."
 msgstr ""
+"Nel tuo codice vedrai dei numeri come <a href=\"%s\" "
+"target=\"_blank\">questi</a> (in rosso). Questo è il tuo TAG ID !."
 
 #: admin\views\faq.view.php:66
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:66
 msgid "How does it work?"
-msgstr ""
+msgstr "Come funziona?"
 
 #: admin\views\faq.view.php:70
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:70
@@ -196,16 +223,20 @@ msgid ""
 "with our META box feature, give it 5 minutes andthen confirm in Conversion "
 "Manager that the tags are properly implemented."
 msgstr ""
+"Aggiungi il tuo codice di base (TAG ID) e il tuo codice evento sulla pagina "
+"o sulle pagine dedicate con la nostra funzionalità META box, attendi 5 "
+"minuti e poi conferma nel Conversion Manager che i tag siano implementati "
+"correttamente."
 
 #: admin\views\faq.view.php:73
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:73
 msgid "Make sure to clear your cache if required."
-msgstr ""
+msgstr "Assicurati di svuotare la cache se necessario."
 
 #: admin\views\faq.view.php:76
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:76
 msgid "1. Track conversions—even if volume is low"
-msgstr ""
+msgstr "1. Traccia le conversioni, anche se il volume è basso"
 
 #: admin\views\faq.view.php:78
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:78
@@ -218,11 +249,20 @@ msgid ""
 "what types of imagery or messaging catches theireyes, and the sentiment that "
 "appeals to them."
 msgstr ""
+"Probabilmente non otterrai molte vendite immediate e dirette da Pinterest, "
+"ma i dati sulle conversioni che raccogli possono offrirti informazioni "
+"preziose sui tuoi clienti. Invece di pensare di usare i dati sulle "
+"conversioni per ottimizzare un costo per conversione efficiente, sfruttali "
+"per alimentare la tua ricerca di mercato e per capire le preferenze dei tuoi "
+"clienti, ciò che li interessa, quali tipi di immagini o messaggi catturano "
+"la loro attenzione e quale tono di voce li attira."
 
 #: admin\views\faq.view.php:81
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:81
 msgid "2. Set the right Pinterest conversion tracking window"
 msgstr ""
+"2. Imposta la finestra di tracciamento delle conversioni di Pinterest "
+"corretta"
 
 #: admin\views\faq.view.php:83
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:83
@@ -235,11 +275,21 @@ msgid ""
 "customers are likely to hit many touchpoints between viewing a Promoted Pin "
 "and making a conversion—interpret the data accordingly."
 msgstr ""
+"Poiché Pinterest viene spesso usato per pianificare il futuro, in genere le "
+"persone non compiono un'azione immediata dopo aver visualizzato un Pin. La "
+"maggior parte degli inserzionisti dovrebbe usare una finestra di conversione "
+"più ampia. Pinterest ti consente di impostare una finestra di conversione "
+"fino a 60 giorni, il che significa che Pinterest attribuirà a sé le "
+"conversioni di chi ha cliccato o visualizzato il tuo Pin fino a 60 giorni "
+"prima. Ricorda che è probabile che i tuoi clienti attraversino numerosi "
+"punti di contatto tra la visualizzazione di un Pin promosso e la "
+"conversione, quindi interpreta i dati di conseguenza."
 
 #: admin\views\faq.view.php:86
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:86
 msgid "3. Take advantage of multi-device Pinterest Conversion tracking"
 msgstr ""
+"3. Sfrutta il tracciamento delle conversioni Pinterest multi-dispositivo"
 
 #: admin\views\faq.view.php:88
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:88
@@ -251,11 +301,17 @@ msgid ""
 "then make in-app purchases? Dig into the multi-device Pinterest data to see "
 "what you can learn."
 msgstr ""
+"Poiché Pinterest è in grado di tracciare gli utenti che hanno effettuato "
+"l'accesso, puoi raccogliere dati su più dispositivi. Questi dati possono "
+"aiutarti a definire la tua strategia multi-dispositivo anche al di là di "
+"Pinterest. Per esempio: i tuoi clienti navigano da mobile e acquistano da "
+"desktop? Si informano da desktop e poi effettuano acquisti in-app? Analizza "
+"i dati Pinterest multi-dispositivo per scoprire cosa puoi imparare."
 
 #: admin\views\faq.view.php:91
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:91
 msgid "4. Understand post-click and view-through conversions on Pinterest"
-msgstr ""
+msgstr "4. Comprendi le conversioni post-clic e view-through su Pinterest"
 
 #: admin\views\faq.view.php:93
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:93
@@ -271,11 +327,22 @@ msgid ""
 "apples-to-apples comparisons to data from other channels like display or "
 "search."
 msgstr ""
+"È importante distinguere tra conversioni post-clic e view-through quando "
+"confronti le prestazioni di Pinterest con quelle di altri canali "
+"pubblicitari. Pinterest consente ai brand di tracciare le visite alle "
+"pagine, le iscrizioni e le azioni di checkout dopo che un utente ha cliccato "
+"verso il tuo sito da Pinterest, tutte conversioni post-clic. Puoi anche "
+"tracciare le azioni sopra indicate dopo che qualcuno ha ripinnato, "
+"visualizzato un primo piano del tuo Pin o visualizzato il tuo Pin "
+"all'interno di un feed Pinterest, che sono essenzialmente conversioni view-"
+"through. Prendi nota del tipo di conversione che stai osservando per fare "
+"confronti omogenei con i dati provenienti da altri canali come il display o "
+"la ricerca."
 
 #: admin\views\faq.view.php:96
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:96
 msgid "5. Use third-party tracking URLs"
-msgstr ""
+msgstr "5. Usa URL di tracciamento di terze parti"
 
 #: admin\views\faq.view.php:98
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\faq.view.php:98
@@ -292,11 +359,23 @@ msgid ""
 "Promoted Pin destination URL, it won’t change the URLs of the original "
 "organic Pin."
 msgstr ""
+"Per mantenere tutti i dati in un unico posto e per comprendere la reale "
+"influenza di Pinterest rispetto agli altri punti di contatto del tuo "
+"customer journey, implementa un tracciamento di terze parti come Google "
+"Analytics utilizzando un URL di tracciamento. Stabilisci quali parametri di "
+"tracciamento includere nell'URL in base ai tuoi obiettivi. Per esempio, se "
+"vuoi capire quale fascia demografica è più coinvolta, includi una variabile "
+"per specificare i gruppi di targeting che usi per promuovere i tuoi pin. Se "
+"vuoi capire quali messaggi e immagini parlano al tuo pubblico, includi una "
+"variabile creativa. Gli URL di tracciamento possono essere aggiornati "
+"« modificando » un Pin per cambiarne l'URL di destinazione. Non "
+"preoccuparti: se modifichi l'URL di destinazione di un Pin promosso, gli URL "
+"del Pin organico originale non cambieranno."
 
 #: admin\views\inc\side.view.php:4
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\side.view.php:4
 msgid "Boost your SEO with Meta Tags"
-msgstr ""
+msgstr "Potenzia la tua SEO con i Meta Tag"
 
 #: admin\views\inc\side.view.php:5
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\side.view.php:5
@@ -306,16 +385,21 @@ msgid ""
 "to help Search engines such as Google to understand additional information "
 "about the webpage (for ranking purposes)."
 msgstr ""
+"Compila automaticamente META Keywords SEO personalizzate ovunque sul tuo "
+"sito web in base ai titoli degli articoli, alle Focus keyword di Yoast/Rank "
+"Math e altro ancora. Aggiungi META tag personalizzati per aiutare i motori "
+"di ricerca come Google a comprendere informazioni aggiuntive sulla pagina "
+"web (ai fini del posizionamento)."
 
 #: admin\views\inc\side.view.php:6
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\side.view.php:6
 msgid "Read More &raquo;"
-msgstr ""
+msgstr "Leggi di più &raquo;"
 
 #: admin\views\inc\side.view.php:10
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\side.view.php:10
 msgid "Subscribe & get a 10% OFF"
-msgstr ""
+msgstr "Iscriviti e ottieni il 10% di sconto"
 
 #: admin\views\inc\side.view.php:11
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\side.view.php:11
@@ -323,21 +407,23 @@ msgid ""
 "Enter your email to get our SEO best practice guide AND a 10% coupon code on "
 "Pinterest Conversion Tags PRO plugin."
 msgstr ""
+"Inserisci la tua email per ricevere la nostra guida alle best practice SEO E "
+"un codice coupon del 10% sul plugin Pinterest Conversion Tags PRO."
 
 #: admin\views\inc\side.view.php:20
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\side.view.php:20
 msgid "Email address"
-msgstr ""
+msgstr "Indirizzo email"
 
 #: admin\views\inc\side.view.php:25
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\side.view.php:25
 msgid "Subscribe"
-msgstr ""
+msgstr "Iscriviti"
 
 #: admin\views\inc\side.view.php:34
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\side.view.php:34
 msgid "BOOST YOUR RANKING"
-msgstr ""
+msgstr "POTENZIA IL TUO POSIZIONAMENTO"
 
 #: admin\views\inc\side.view.php:35
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\side.view.php:35
@@ -345,16 +431,18 @@ msgid ""
 "Optimize your Robots.txt with Better Robots.txt (made by PAGUP) & Boost your "
 "ranking on search engines."
 msgstr ""
+"Ottimizza il tuo Robots.txt con Better Robots.txt (realizzato da PAGUP) e "
+"potenzia il tuo posizionamento sui motori di ricerca."
 
 #: admin\views\inc\side.view.php:38
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\side.view.php:38
 msgid "Try Better Robots.txt &raquo;"
-msgstr ""
+msgstr "Prova Better Robots.txt &raquo;"
 
 #: admin\views\inc\side.view.php:42
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\side.view.php:42
 msgid "Optimize your ALT TEXT"
-msgstr ""
+msgstr "Ottimizza il tuo ALT TEXT"
 
 #: admin\views\inc\side.view.php:43
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\side.view.php:43
@@ -363,16 +451,20 @@ msgid ""
 "your pages, posts & product, from Yoast SEO optimization settings (keywords) "
 "and/or Post title."
 msgstr ""
+"Ottimizza automaticamente tutti i testi alternativi delle immagini (incluso "
+"il negozio online Woocommerce) delle tue pagine, dei tuoi articoli e dei "
+"tuoi prodotti, a partire dalle impostazioni di ottimizzazione di Yoast SEO "
+"(keyword) e/o dal titolo dell'articolo."
 
 #: admin\views\inc\side.view.php:46
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\side.view.php:46
 msgid "Get BIALTY by Pagup &raquo;"
-msgstr ""
+msgstr "Ottieni BIALTY di Pagup &raquo;"
 
 #: admin\views\inc\side.view.php:50
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\side.view.php:50
 msgid "Boost your Local SEO"
-msgstr ""
+msgstr "Potenzia la tua SEO locale"
 
 #: admin\views\inc\side.view.php:51
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\side.view.php:51
@@ -381,33 +473,36 @@ msgid ""
 "Local SEO structured data. Try Wp Google Street View plugin with unique "
 "Local Business data Markup (machine-readable language of JSON-LD)."
 msgstr ""
+"Integra Google Street View (+ tour virtuale) con Google Maps "
+"(sincronizzazione) e dati strutturati per la SEO locale. Prova il plugin Wp "
+"Google Street View con un Markup dati Local Business unico (linguaggio JSON-"
+"LD leggibile dalle macchine)."
 
 #: admin\views\inc\side.view.php:54
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\side.view.php:54
 msgid "Get Wp Google Street View &raquo;"
-msgstr ""
+msgstr "Ottieni Wp Google Street View &raquo;"
 
-#: admin\views\inc\top.view.php:2
-#: admin\views\inc\top.view.php:6
+#: admin\views\inc\top.view.php:2 admin\views\inc\top.view.php:6
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\top.view.php:2
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\top.view.php:6
 msgid "Settings"
-msgstr ""
+msgstr "Impostazioni"
 
 #: admin\views\inc\top.view.php:7
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\top.view.php:7
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: admin\views\inc\top.view.php:8
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\inc\top.view.php:8
 msgid "Recommendations"
-msgstr ""
+msgstr "Consigli"
 
 #: admin\views\metabox.view.php:10
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\metabox.view.php:10
 msgid "Add Signup Event?"
-msgstr ""
+msgstr "Aggiungere un evento Signup?"
 
 #: admin\views\metabox.view.php:47
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\metabox.view.php:47
@@ -415,14 +510,15 @@ msgid ""
 "Note: \"type\" input field only accepts letters (az-AZ), numbers(0-9), and "
 "underscores(_)."
 msgstr ""
+"Nota: il campo di input « type » accetta solo lettere (az-AZ), numeri (0-9) "
+"e trattini bassi (_)."
 
 #: admin\views\metabox.view.php:58
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\metabox.view.php:58
 msgid "Add Watch Video Event?"
-msgstr ""
+msgstr "Aggiungere un evento WatchVideo?"
 
-#: admin\views\metabox.view.php:95
-#: admin\views\metabox.view.php:143
+#: admin\views\metabox.view.php:95 admin\views\metabox.view.php:143
 #: admin\views\metabox.view.php:192
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\metabox.view.php:95
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\metabox.view.php:143
@@ -431,21 +527,23 @@ msgid ""
 "Note: \"type\" input field accepts letters (az-AZ), numbers(0-9), and "
 "underscores(_)."
 msgstr ""
+"Nota: il campo di input « type » accetta lettere (az-AZ), numeri (0-9) e "
+"trattini bassi (_)."
 
 #: admin\views\metabox.view.php:106
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\metabox.view.php:106
 msgid "Add Lead Event?"
-msgstr ""
+msgstr "Aggiungere un evento Lead?"
 
 #: admin\views\metabox.view.php:154
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\metabox.view.php:154
 msgid "Add Custom Event?"
-msgstr ""
+msgstr "Aggiungere un evento Custom?"
 
 #: admin\views\metabox.view.php:199
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\metabox.view.php:199
 msgid "* Please read more details about Pinterest Events in FAQ"
-msgstr ""
+msgstr "* Per maggiori dettagli sugli eventi di Pinterest, consulta le FAQ"
 
 #: admin\views\notices\support.view.php:4
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\notices\support.view.php:4
@@ -454,11 +552,13 @@ msgid ""
 "Show support for Pinterest Conversion Tags » <a href=\"%s\" "
 "target=\"_blank\">Click here</a>"
 msgstr ""
+"Sostieni Pinterest Conversion Tags » <a href=\"%s\" target=\"_blank\">Fai "
+"clic qui</a>"
 
 #: admin\views\recommendations.view.php:5
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:4
 msgid "Schema App Structured Data by Hunch Manifest"
-msgstr ""
+msgstr "Schema App Structured Data di Hunch Manifest"
 
 #: admin\views\recommendations.view.php:6
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:5
@@ -466,11 +566,13 @@ msgid ""
 "Get Schema.org structured data for all pages, posts, categories and profile "
 "pages on activation."
 msgstr ""
+"Ottieni i dati strutturati Schema.org per tutte le pagine, gli articoli, le "
+"categorie e le pagine profilo al momento dell'attivazione."
 
 #: admin\views\recommendations.view.php:11
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:10
 msgid "Yasr – Yet Another Stars Rating by Dario Curvino"
-msgstr ""
+msgstr "Yasr – Yet Another Stars Rating di Dario Curvino"
 
 #: admin\views\recommendations.view.php:12
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:11
@@ -478,6 +580,9 @@ msgid ""
 "Boost the way people interact with your website, e-commerce or blog with an "
 "easy and intuitive WordPress rating system!"
 msgstr ""
+"Potenzia il modo in cui le persone interagiscono con il tuo sito web, e-"
+"commerce o blog grazie a un sistema di valutazione WordPress semplice e "
+"intuitivo!"
 
 #: admin\views\recommendations.view.php:17
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:16
@@ -485,6 +590,8 @@ msgid ""
 "Better Robots.txt optimization – Website indexing, traffic, ranking & SEO "
 "Booster + Woocommerce"
 msgstr ""
+"Better Robots.txt optimization – Indicizzazione del sito, traffico, "
+"posizionamento e SEO Booster + Woocommerce"
 
 #: admin\views\recommendations.view.php:18
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:17
@@ -493,11 +600,14 @@ msgid ""
 "virtual robots.txt including your XML sitemaps (Yoast or else) to boost your "
 "website ranking on search engines."
 msgstr ""
+"Better Robots.txt è un plugin robots.txt SEO tutto-in-uno: crea un "
+"robots.txt virtuale che include le tue sitemap XML (di Yoast o di altri) per "
+"potenziare il posizionamento del tuo sito web sui motori di ricerca."
 
 #: admin\views\recommendations.view.php:23
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:22
 msgid "Smush Image Compression and Optimization By WPMU DEV"
-msgstr ""
+msgstr "Smush Image Compression and Optimization di WPMU DEV"
 
 #: admin\views\recommendations.view.php:24
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:23
@@ -505,11 +615,14 @@ msgid ""
 "Compress and optimize (or optimise) image files, improve performance and "
 "boost your SEO rank using Smush WordPress image compression and optimization."
 msgstr ""
+"Comprimi e ottimizza i file immagine, migliora le prestazioni e potenzia il "
+"tuo posizionamento SEO con la compressione e l'ottimizzazione delle immagini "
+"WordPress di Smush."
 
 #: admin\views\recommendations.view.php:29
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:28
 msgid "404 to 301 By Joel James"
-msgstr ""
+msgstr "404 to 301 di Joel James"
 
 #: admin\views\recommendations.view.php:30
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:29
@@ -517,11 +630,13 @@ msgid ""
 "Automatically redirect, log and notify all 404 page errors to any page using "
 "301 redirection..."
 msgstr ""
+"Reindirizza, registra e notifica automaticamente tutti gli errori 404 verso "
+"qualsiasi pagina utilizzando il reindirizzamento 301..."
 
 #: admin\views\recommendations.view.php:35
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:34
 msgid "Yoast SEO By Team Yoast"
-msgstr ""
+msgstr "Yoast SEO di Team Yoast"
 
 #: admin\views\recommendations.view.php:36
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:35
@@ -529,11 +644,13 @@ msgid ""
 "Improve your WordPress SEO: Write better content and have a fully optimized "
 "WordPress site using the Yoast SEO plugin."
 msgstr ""
+"Migliora la SEO del tuo WordPress: scrivi contenuti migliori e ottieni un "
+"sito WordPress completamente ottimizzato usando il plugin Yoast SEO."
 
 #: admin\views\recommendations.view.php:51
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:48
 msgid "Top plugins for SEO performance:"
-msgstr ""
+msgstr "I migliori plugin per le prestazioni SEO :"
 
 #: admin\views\recommendations.view.php:59
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:54
@@ -542,12 +659,16 @@ msgid ""
 "to keep your website healthy, get better results on Search engines and "
 "increase your sales for ecommerce solutions."
 msgstr ""
+"Pinterest Conversion Tag di Pagup ti offre una selezione di plugin che ti "
+"permettono di mantenere il tuo sito web in salute, ottenere risultati "
+"migliori sui motori di ricerca e aumentare le vendite delle tue soluzioni e-"
+"commerce."
 
 #: admin\views\recommendations.view.php:98
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:71
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:174
 msgid "Download"
-msgstr ""
+msgstr "Scarica"
 
 #: admin\views\recommendations.view.php:116
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:185
@@ -555,6 +676,8 @@ msgid ""
 "Upgrade to PRO version to UNLOCK 12 additional awesome plugins "
 "recommendations for SEO & Conversion performance"
 msgstr ""
+"Passa alla versione PRO per SBLOCCARE 12 ulteriori e straordinari consigli "
+"su plugin per le prestazioni SEO e di conversione"
 
 #: admin\views\recommendations.view.php:126
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:191
@@ -562,11 +685,13 @@ msgid ""
 "Want to suggest another plugin ? ... Send us a message at support@better-"
 "robots.com"
 msgstr ""
+"Vuoi suggerire un altro plugin? ... Inviaci un messaggio a support@better-"
+"robots.com"
 
 #: admin\views\settings.view.php:23
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:16
 msgid "PINTEREST CONVERSION TAGS, how does it work?"
-msgstr ""
+msgstr "PINTEREST CONVERSION TAGS, come funziona?"
 
 #: admin\views\settings.view.php:26
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:17
@@ -578,27 +703,34 @@ msgid ""
 "feature under WordPress post editor. If you have any doubt, please refer to "
 "<a href=\"%s\" target=\"_blank\">Pinterest documentation</a>. Enjoy"
 msgstr ""
+"Il plugin Pinterest conversion tag ti consente di aggiungere facilmente il "
+"tuo codice di base Pinterest ovunque sul tuo sito web, ma anche di creare "
+"eventi su pagine specifiche con pochi clic. Non dimenticare di controllare "
+"le tue pagine per trovare la funzionalità META BOX sotto l'editor degli "
+"articoli di WordPress. In caso di dubbi, consulta la <a href=\"%s\" "
+"target=\"_blank\">documentazione di Pinterest</a>. Buon lavoro"
 
 #: admin\views\settings.view.php:38
 #: premium\pctags-pinterest-conversion-tag-premium\admin\controllers\MetaboxController.php:21
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:22
 msgid "Pinterest Conversion Tags"
-msgstr ""
+msgstr "Pinterest Conversion Tags"
 
 #: admin\views\settings.view.php:45
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:28
 msgid "Enable Pinterest Conversion Tag"
-msgstr ""
+msgstr "Attiva il Pinterest Conversion Tag"
 
 #: admin\views\settings.view.php:61
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:42
 msgid "This feature will add the Pinterest base code to all pages"
 msgstr ""
+"Questa funzionalità aggiungerà il codice di base Pinterest a tutte le pagine"
 
 #: admin\views\settings.view.php:71
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:52
 msgid "Enter Pinterest Conversion Tag ID"
-msgstr ""
+msgstr "Inserisci l'ID del Pinterest Conversion Tag"
 
 #: admin\views\settings.view.php:76
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:56
@@ -606,6 +738,8 @@ msgid ""
 "Please refer to FAQ section : How to find your TAG ID - Please do NOT enter "
 "anything else BUT your TAG ID"
 msgstr ""
+"Consulta la sezione FAQ : Come trovare il tuo TAG ID - Ti preghiamo di NON "
+"inserire nient'altro AL DI FUORI del tuo TAG ID"
 
 #: admin\views\settings.view.php:93
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:65
@@ -613,11 +747,14 @@ msgid ""
 "It seems you enabled Pinterest Conversion Tag above but forgot to enter TAG "
 "ID. Please make sure to enter TAG ID otherwise it won't work."
 msgstr ""
+"Sembra che tu abbia attivato il Pinterest Conversion Tag qui sopra ma abbia "
+"dimenticato di inserire il TAG ID. Assicurati di inserire il TAG ID, "
+"altrimenti non funzionerà."
 
 #: admin\views\settings.view.php:107
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:76
 msgid "Claim your website"
-msgstr ""
+msgstr "Rivendica il tuo sito web"
 
 #: admin\views\settings.view.php:112
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:80
@@ -625,6 +762,8 @@ msgid ""
 "To verify your website’s authenticity, please add pinterest meta tag to "
 "claim your website"
 msgstr ""
+"Per verificare l'autenticità del tuo sito web, aggiungi il meta tag di "
+"Pinterest per rivendicare il tuo sito web"
 
 #: admin\views\settings.view.php:119
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:85
@@ -633,16 +772,18 @@ msgid ""
 "Add your Pinterest Meta Tag with our <a href=\"%s\" target=\"_blank\">Meta "
 "tags for SEO</a> plugin"
 msgstr ""
+"Aggiungi il tuo Meta Tag di Pinterest con il nostro plugin <a href=\"%s\" "
+"target=\"_blank\">Meta tags for SEO</a>"
 
 #: admin\views\settings.view.php:136
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:95
 msgid "PINTEREST CONVERSION EVENTS"
-msgstr ""
+msgstr "EVENTI DI CONVERSIONE PINTEREST"
 
 #: admin\views\settings.view.php:143
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:100
 msgid "Add Cart Event"
-msgstr ""
+msgstr "Aggiungi l'evento Carrello"
 
 #: admin\views\settings.view.php:149
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:104
@@ -651,11 +792,14 @@ msgid ""
 "This feature will add a \"addtocart\" event on your <a href=\"%s\" "
 "target=\"_blank\">CART PAGE</a>, just after your base code"
 msgstr ""
+"Questa funzionalità aggiungerà un evento « addtocart » sulla tua <a "
+"href=\"%s\" target=\"_blank\">PAGINA CARRELLO</a>, subito dopo il tuo codice "
+"di base"
 
 #: admin\views\settings.view.php:182
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:135
 msgid "Add Checkout Event"
-msgstr ""
+msgstr "Aggiungi l'evento Checkout"
 
 #: admin\views\settings.view.php:187
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:138
@@ -664,11 +808,14 @@ msgid ""
 "This feature will add a \"checkout\" event on your <a href=\"%s\" "
 "target=\"_blank\">CHECKOUT PAGE</a>, just after your base code"
 msgstr ""
+"Questa funzionalità aggiungerà un evento « checkout » sulla tua <a "
+"href=\"%s\" target=\"_blank\">PAGINA CHECKOUT</a>, subito dopo il tuo codice "
+"di base"
 
 #: admin\views\settings.view.php:220
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:169
 msgid "Add Search Event"
-msgstr ""
+msgstr "Aggiungi l'evento Ricerca"
 
 #: admin\views\settings.view.php:225
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:172
@@ -676,11 +823,13 @@ msgid ""
 "This feature will add a \"search\" event on all pages, just after your "
 "pinterest conversion base code"
 msgstr ""
+"Questa funzionalità aggiungerà un evento « search » su tutte le pagine, "
+"subito dopo il tuo codice di base di conversione Pinterest"
 
 #: admin\views\settings.view.php:253
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:203
 msgid "Add ViewCategory Event"
-msgstr ""
+msgstr "Aggiungi l'evento ViewCategory"
 
 #: admin\views\settings.view.php:258
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:206
@@ -689,11 +838,15 @@ msgid ""
 "This feature will add a \"ViewCategory\" event on your <a href=\"%s\" "
 "target=\"_blank\">Category pages</a>, just after your base code"
 msgstr ""
+"Questa funzionalità aggiungerà un evento « ViewCategory » sulle tue <a "
+"href=\"%s\" target=\"_blank\">pagine di categoria</a>, subito dopo il tuo "
+"codice di base"
 
 #: admin\views\settings.view.php:294
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:238
 msgid "add to cart event, checkout event and search event."
 msgstr ""
+"evento di aggiunta al carrello, evento di checkout ed evento di ricerca."
 
 #: admin\views\settings.view.php:308
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:251
@@ -702,16 +855,19 @@ msgid ""
 " \"PageVisit\", \"Signup\", \"WatchVideo\" & \"Lead\" events, which are "
 "managed with a &nbsp;<a href=\"%s\" target=\"_blank\">META BOX feature</a>"
 msgstr ""
+" eventi « PageVisit », « Signup », « WatchVideo » e « Lead », che si "
+"gestiscono con una &nbsp;<a href=\"%s\" target=\"_blank\">funzionalità META "
+"BOX</a>"
 
 #: admin\views\settings.view.php:325
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:261
 msgid "Boost your ranking on Search engines"
-msgstr ""
+msgstr "Potenzia il tuo posizionamento sui motori di ricerca"
 
 #: admin\views\settings.view.php:341
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:273
 msgid "Optimize site's crawlability with an optimized robots.txt"
-msgstr ""
+msgstr "Ottimizza la scansionabilità del sito con un robots.txt ottimizzato"
 
 #: admin\views\settings.view.php:353
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:278
@@ -720,16 +876,19 @@ msgid ""
 "Click <a href=\"%s\" target=\"_blank\">HERE</a> to Install <a href=\"%2s\" "
 "target=\"_blank\">Better Robots.txt plugin</a> to boost your robots.txt"
 msgstr ""
+"Fai clic <a href=\"%s\" target=\"_blank\">QUI</a> per installare il <a "
+"href=\"%2s\" target=\"_blank\">plugin Better Robots.txt</a> e potenziare il "
+"tuo robots.txt"
 
 #: admin\views\settings.view.php:374
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:298
 msgid "Boost your Alt texts"
-msgstr ""
+msgstr "Potenzia i tuoi testi Alt"
 
 #: admin\views\settings.view.php:390
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:310
 msgid "Boost your ranking with optimized Alt tags"
-msgstr ""
+msgstr "Potenzia il tuo posizionamento con tag Alt ottimizzati"
 
 #: admin\views\settings.view.php:402
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:315
@@ -739,17 +898,22 @@ msgid ""
 "target=\"_blank\">BIALTY Wordpress plugin</a> & auto-optimize all your alt "
 "texts for FREE"
 msgstr ""
+"Fai clic <a href=\"%s\" target=\"_blank\">QUI</a> per installare il <a "
+"href=\"%2s\" target=\"_blank\">plugin Wordpress BIALTY</a> e ottimizzare "
+"automaticamente tutti i tuoi testi alt GRATIS"
 
 #: admin\views\settings.view.php:423
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:335
 msgid "Mobile-Friendly & responsive design"
-msgstr ""
+msgstr "Design mobile-friendly e responsive"
 
 #: admin\views\settings.view.php:439
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:347
 msgid ""
 "Get dynamic mobile previews of your pages/posts/products + Facebook debugger"
 msgstr ""
+"Ottieni anteprime mobili dinamiche delle tue pagine/articoli/prodotti + "
+"debugger di Facebook"
 
 #: admin\views\settings.view.php:451
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:352
@@ -759,17 +923,22 @@ msgid ""
 "target=\"_blank\">Mobilook</a> and test your website on Dualscreen format "
 "(Galaxy fold)"
 msgstr ""
+"Fai clic <a href=\"%s\" target=\"_blank\">QUI</a> per installare <a "
+"href=\"%2s\" target=\"_blank\">Mobilook</a> e testare il tuo sito web nel "
+"formato a doppio schermo (Galaxy fold)"
 
 #: admin\views\settings.view.php:472
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:372
 msgid "Boost your image title attribute"
-msgstr ""
+msgstr "Potenzia l'attributo title delle tue immagini"
 
 #: admin\views\settings.view.php:488
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:384
 msgid ""
 "Optimize all your image title attributes for UX & search engines performance"
 msgstr ""
+"Ottimizza tutti gli attributi title delle tue immagini per la UX e le "
+"prestazioni sui motori di ricerca"
 
 #: admin\views\settings.view.php:500
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:389
@@ -779,21 +948,26 @@ msgid ""
 "target=\"_blank\">BIGTA</a> Wordpress plugin & auto-optimize all your image "
 "title attributes for FREE"
 msgstr ""
+"Fai clic <a href=\"%s\" target=\"_blank\">QUI</a> per installare il plugin "
+"Wordpress <a href=\"%2s\" target=\"_blank\">BIGTA</a> e ottimizzare "
+"automaticamente tutti gli attributi title delle tue immagini GRATIS"
 
 #: admin\views\settings.view.php:525
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:413
 msgid "Delete Settings"
-msgstr ""
+msgstr "Elimina impostazioni"
 
 #: admin\views\settings.view.php:541
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:427
 msgid "Checking this box will remove all settings when you deactivate plugin."
 msgstr ""
+"Selezionando questa casella verranno rimosse tutte le impostazioni alla "
+"disattivazione del plugin."
 
 #: admin\views\settings.view.php:551
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:436
 msgid "Save Changes"
-msgstr ""
+msgstr "Salva le modifiche"
 
 #: admin\views\settings.view.php:556
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:439
@@ -802,6 +976,9 @@ msgid ""
 "confirm in Pinterest Conversion Manager that the tags are properly "
 "implemented."
 msgstr ""
+"Nota: una volta aggiunti i codici, svuota la cache, attendi 24 ore e poi "
+"conferma nel Pinterest Conversion Manager che i tag siano implementati "
+"correttamente."
 
 #: pinterest-conversion-tag.php:88
 #: premium\pctags-pinterest-conversion-tag-premium\pinterest-conversion-tag.php:89
@@ -815,70 +992,93 @@ msgid ""
 "to our security and feature updates notifications. %2$s See you on the other "
 "side."
 msgstr ""
+"Ciao %1$s, %2$s fai clic su Consenti e continua per attivare PCTAGs e "
+"tracciare le conversioni sul tuo sito web :)! Il tag di Pinterest (con i "
+"codici di base e di evento) ti consente di tracciare le azioni che gli "
+"utenti compiono sul tuo sito web dopo aver visualizzato il tuo Pin promosso, "
+"misurare il ritorno sulla spesa pubblicitaria (RoAS) e creare segmenti di "
+"pubblico da raggiungere con i tuoi Pin promossi. %2$s Non perderti nessun "
+"aggiornamento importante: iscriviti alle nostre notifiche sugli "
+"aggiornamenti di sicurezza e funzionalità. %2$s Ci vediamo dall'altra parte."
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:83
 msgid "WP-Optimize by David Anderson, Ruhani Rabin, Team Updraft"
-msgstr ""
+msgstr "WP-Optimize di David Anderson, Ruhani Rabin, Team Updraft"
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:84
 msgid ""
 "WP-Optimize is WordPress's most-installed optimization plugin. With it, you "
 "can clean up your database easily and safely, without manual queries."
 msgstr ""
+"WP-Optimize è il plugin di ottimizzazione più installato di WordPress. Con "
+"esso puoi ripulire il tuo database in modo facile e sicuro, senza query "
+"manuali."
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:89
 msgid "WordPress Share Buttons Plugin – AddThis By The AddThis Team"
-msgstr ""
+msgstr "WordPress Share Buttons Plugin – AddThis di The AddThis Team"
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:90
 msgid ""
 "Share buttons from AddThis help you get more traffic from sharing through "
 "social networks."
 msgstr ""
+"I pulsanti di condivisione di AddThis ti aiutano a ottenere più traffico "
+"dalla condivisione sui social network."
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:95
 msgid "WP-SpamShield WordPress Anti-Spam Plugin by Red Sand Media Group"
-msgstr ""
+msgstr "WP-SpamShield WordPress Anti-Spam Plugin di Red Sand Media Group"
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:96
 msgid ""
 "WP-SpamShield is a leading WordPress anti-spam plugin that stops spam "
 "instantly and improves your site's security. "
 msgstr ""
+"WP-SpamShield è uno dei principali plugin anti-spam per WordPress: blocca lo "
+"spam all'istante e migliora la sicurezza del tuo sito. "
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:101
 msgid "OneSignal – Free Web Push Notifications By OneSignal"
-msgstr ""
+msgstr "OneSignal – Free Web Push Notifications di OneSignal"
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:102
 msgid ""
 "Increase engagement and drive more repeat traffic to your WordPress site "
 "with desktop push notifications. Now supporting Chrome, Firefox, and Safari."
 msgstr ""
+"Aumenta il coinvolgimento e porta più traffico di ritorno al tuo sito "
+"WordPress con le notifiche push desktop. Ora supporta Chrome, Firefox e "
+"Safari."
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:107
 msgid "WPfomify - Social Proof & FOMO Marketing Plugin"
-msgstr ""
+msgstr "WPfomify - Social Proof & FOMO Marketing Plugin"
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:108
 msgid ""
 "WPfomify increases conversion rates on your websites by displaying recent "
 "interaction, sales and sign-ups"
 msgstr ""
+"WPfomify aumenta i tassi di conversione dei tuoi siti web mostrando le "
+"interazioni, le vendite e le iscrizioni recenti"
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:113
 msgid "Recart - Abandoned Cart Toolbox"
-msgstr ""
+msgstr "Recart - Abandoned Cart Toolbox"
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:114
 msgid ""
 "Recart Messenger Marketing and Abandoned Cart Toolbox is a All in one cart "
 "recovery marketing tools for ecommerce solution"
 msgstr ""
+"Recart Messenger Marketing and Abandoned Cart Toolbox è una suite tutto-in-"
+"uno di strumenti di marketing per il recupero del carrello per soluzioni e-"
+"commerce"
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:119
 msgid "Wp-Roket - Probably the best caching Plugin for WordPress"
-msgstr ""
+msgstr "Wp-Roket - Probabilmente il miglior plugin di caching per WordPress"
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:120
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:138
@@ -886,54 +1086,66 @@ msgid ""
 "Speed up your WordPress website, more traffic, conversions and money with WP "
 "Rocket caching plugin."
 msgstr ""
+"Velocizza il tuo sito web WordPress e ottieni più traffico, conversioni e "
+"guadagni con il plugin di caching WP Rocket."
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:125
 msgid "Nofollow for external link By CyberNetikz"
-msgstr ""
+msgstr "Nofollow for external link di CyberNetikz"
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:126
 msgid ""
 "Automatically insert rel=nofollow and target=_blank to all the external "
 "links into your website posts, pages or menus. Support exclude domain."
 msgstr ""
+"Inserisce automaticamente rel=nofollow e target=_blank in tutti i link "
+"esterni presenti negli articoli, nelle pagine o nei menu del tuo sito web. "
+"Supporta l'esclusione dei domini."
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:131
 msgid "Google Reviews Widget By RichPlugins"
-msgstr ""
+msgstr "Google Reviews Widget di RichPlugins"
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:132
 msgid ""
 "Google Reviews Widget show Google Places Reviews on your WordPress website "
 "to increase user confidence and SEO."
 msgstr ""
+"Google Reviews Widget mostra le recensioni di Google Places sul tuo sito web "
+"WordPress per aumentare la fiducia degli utenti e migliorare la SEO."
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:137
 msgid "WP Chatbot for facebook Messenger customer chat By HoliThemes"
-msgstr ""
+msgstr "WP Chatbot for facebook Messenger customer chat di HoliThemes"
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:143
 msgid "WP Google My Business Auto Publish By Martin Gibson"
-msgstr ""
+msgstr "WP Google My Business Auto Publish di Martin Gibson"
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:144
 msgid ""
 "WP Google My Business Auto Publish lets you publish posts, custom posts and "
 "pages automatically from WordPress to your Google My Business page."
 msgstr ""
+"WP Google My Business Auto Publish ti consente di pubblicare automaticamente "
+"articoli, articoli personalizzati e pagine da WordPress alla tua pagina "
+"Google My Business."
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:149
 msgid "WP Search Console"
-msgstr ""
+msgstr "WP Search Console"
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:150
 msgid ""
 "A new way to boost your marketing content. Writing Web Content that is "
 "ranking like those of SEO Experts."
 msgstr ""
+"Un nuovo modo per potenziare i tuoi contenuti di marketing. Scrivi contenuti "
+"web che si posizionano come quelli degli esperti SEO."
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\recommendations.view.php:158
 msgid "Awesome plugins for SEO & Conversion performance:"
-msgstr ""
+msgstr "Plugin straordinari per le prestazioni SEO e di conversione :"
 
 #: premium\pctags-pinterest-conversion-tag-premium\admin\views\settings.view.php:247
 #, php-format
@@ -941,3 +1153,6 @@ msgid ""
 "\"PageVisit\", \"Signup\", \"WatchVideo\" & \"Lead\" events are managed with "
 "a &nbsp;<a href=\"%s\" target=\"_blank\">META BOX feature</a>"
 msgstr ""
+"Gli eventi « PageVisit », « Signup », « WatchVideo » e « Lead » si "
+"gestiscono con una &nbsp;<a href=\"%s\" target=\"_blank\">funzionalità META "
+"BOX</a>"

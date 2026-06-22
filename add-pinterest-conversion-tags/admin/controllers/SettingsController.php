@@ -25,8 +25,8 @@ class SettingsController {
 
     public function add_settings() {
         add_menu_page(
-            'Pinterest Conversion Tags Settings',
-            'Pinterest Tags',
+            __( 'Pinterest Conversion Tags Settings', 'add-pinterest-conversion-tags' ),
+            __( 'Pinterest Tags', 'add-pinterest-conversion-tags' ),
             'manage_options',
             'pctag',
             array(&$this, 'page'),
@@ -63,7 +63,7 @@ class SettingsController {
             ];
             update_option( 'pctag', $options );
             // update options
-            echo '<div class="notice pctag-notice notice-success is-dismissible"><p><strong>' . esc_html__( 'Settings saved.' ) . '</strong></p></div>';
+            echo '<div class="notice pctag-notice notice-success is-dismissible"><p><strong>' . esc_html__( 'Settings saved.', 'add-pinterest-conversion-tags' ) . '</strong></p></div>';
         }
         $options = new Option();
         $notification = new \Pagup\Pctag\Controllers\NotificationController();
