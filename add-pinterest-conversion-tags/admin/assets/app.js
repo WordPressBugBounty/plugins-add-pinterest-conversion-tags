@@ -30,49 +30,52 @@ jQuery(document).ready(function () {
 
 // console.log(data);
 
-PetiteVue.createApp({
-  enable_signup: data.enable_signup ? true : false,
-  signup_events: data?.signup_events ? data.signup_events : [],
-  enable_watchVideo: data.enable_watchVideo ? true : false,
-  watchVideo_events: data?.watchVideo_events ? data.watchVideo_events : [],
-  enable_lead: data.enable_lead ? true : false,
-  lead_events: data?.lead_events ? data.lead_events : [],
-  enable_custom: data.enable_custom ? true : false,
-  custom_events: data?.custom_events ? data.custom_events : [],
-  addEvent(event) {
-    if (event === "signup") {
-      this.signup_events.push({
-        type: "",
-        value: "",
-      });
-    } else if (event === "watchVideo") {
-      this.watchVideo_events.push({
-        type: "",
-        value: "",
-      });
-    } else if (event === "lead") {
-      this.lead_events.push({
-        type: "",
-        value: "",
-      });
-    } else if (event === "custom") {
-      this.custom_events.push({
-        type: "",
-        value: "",
-      });
-    }
-  },
-  removeEvent(id, event) {
-    if (confirm("Are you sure?")) {
+// The event editor is absent on Freemius onboarding and other admin screens.
+if (document.getElementById("pctags_app") && typeof data === "object" && data !== null && typeof PetiteVue !== "undefined") {
+  PetiteVue.createApp({
+    enable_signup: data.enable_signup ? true : false,
+    signup_events: data?.signup_events ? data.signup_events : [],
+    enable_watchVideo: data.enable_watchVideo ? true : false,
+    watchVideo_events: data?.watchVideo_events ? data.watchVideo_events : [],
+    enable_lead: data.enable_lead ? true : false,
+    lead_events: data?.lead_events ? data.lead_events : [],
+    enable_custom: data.enable_custom ? true : false,
+    custom_events: data?.custom_events ? data.custom_events : [],
+    addEvent(event) {
       if (event === "signup") {
-        this.signup_events.splice(id, 1);
+        this.signup_events.push({
+          type: "",
+          value: "",
+        });
       } else if (event === "watchVideo") {
-        this.watchVideo_events.splice(id, 1);
+        this.watchVideo_events.push({
+          type: "",
+          value: "",
+        });
       } else if (event === "lead") {
-        this.lead_events.splice(id, 1);
+        this.lead_events.push({
+          type: "",
+          value: "",
+        });
       } else if (event === "custom") {
-        this.custom_events.splice(id, 1);
+        this.custom_events.push({
+          type: "",
+          value: "",
+        });
       }
-    }
-  },
-}).mount("#pctags_app");
+    },
+    removeEvent(id, event) {
+      if (confirm("Are you sure?")) {
+        if (event === "signup") {
+          this.signup_events.splice(id, 1);
+        } else if (event === "watchVideo") {
+          this.watchVideo_events.splice(id, 1);
+        } else if (event === "lead") {
+          this.lead_events.splice(id, 1);
+        } else if (event === "custom") {
+          this.custom_events.splice(id, 1);
+        }
+      }
+    },
+  }).mount("#pctags_app");
+}

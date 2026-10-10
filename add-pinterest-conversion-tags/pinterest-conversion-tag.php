@@ -4,7 +4,7 @@
 * Plugin Name: Pctags - Pinterest Conversion Tags
 * Description: The Pinterest conversion tags plugin allows to add strategically your Pinterest TAG ID on all your webpages (with the base code). No need to edit your theme files!
 * Author: Pagup
-* Version: 1.2.8
+* Version: 1.2.9
 * Author URI: https://pagup.com/
 * Text Domain: add-pinterest-conversion-tags
 * Domain Path: /languages/
@@ -25,7 +25,7 @@ if ( function_exists( 'pctag_fs' ) ) {
         if ( !defined( 'PCTAG_PLUGIN_DIR' ) ) {
             define( 'PCTAG_PLUGIN_DIR', plugins_url( '', __FILE__ ) );
         }
-        require 'vendor/autoload.php';
+        require_once __DIR__ . '/vendor/autoload.php';
         // Create a helper function for easy SDK access.
         function pctag_fs() {
             global $pctag_fs;

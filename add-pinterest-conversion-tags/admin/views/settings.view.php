@@ -164,7 +164,7 @@ echo sprintf( wp_kses( __( 'This feature will add a "addtocart" event on your <a
 
                                     <label class="pctag-switch">
                                         <input type="checkbox" id="addtocart_event" value="addtocart_event"
-                                        disabled ?> />
+                                        disabled />
                                         <span class="pctag-slider"></span>
                                     </label>
 
@@ -202,7 +202,7 @@ echo sprintf( wp_kses( __( 'This feature will add a "checkout" event on your <a 
 
                                     <label class="pctag-switch">
                                         <input type="checkbox" id="checkout_event" value="checkout_event"
-                                        disabled ?> />
+                                        disabled />
                                         <span class="pctag-slider"></span>
                                     </label>
 
@@ -235,7 +235,7 @@ echo __( 'This feature will add a "search" event on all pages, just after your p
 
                                     <label class="pctag-switch">
                                         <input type="checkbox" id="search_event" value="search_event"
-                                        disabled ?> />
+                                        disabled />
                                         <span class="pctag-slider"></span>
                                     </label>
 
@@ -273,7 +273,7 @@ echo sprintf( wp_kses( __( 'This feature will add a "ViewCategory" event on your
 
                                     <label class="pctag-switch">
                                         <input type="checkbox" id="viewCategory_event" value="viewCategory_event"
-                                        disabled ?> />
+                                        disabled />
                                         <span class="pctag-slider"></span>
                                     </label>
 

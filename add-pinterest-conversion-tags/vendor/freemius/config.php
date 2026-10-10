@@ -210,6 +210,10 @@
         define( 'WP_FS__API_SANDBOX_ADDRESS_LOCALHOST', 'http://sandbox-api.freemius:8080' );
     }
 
+    if ( ! defined( 'WP_FS__API_TIMEOUT' ) ) {
+        define( 'WP_FS__API_TIMEOUT', 30 );
+    }
+
     // Set API address for local testing.
     if ( ! WP_FS__IS_PRODUCTION_MODE ) {
         if ( ! defined( 'FS_API__ADDRESS' ) ) {
@@ -387,5 +391,12 @@
         define( 'WP_FS__DEMO_MODE', false );
     }
     if ( ! defined( 'FS_SDK__SSLVERIFY' ) ) {
-        define( 'FS_SDK__SSLVERIFY', false );
+        /**
+         * Pagup hardening (WordPress.org automated security review).
+         *
+         * This file is loaded before includes/sdk/FreemiusWordPress.php, so this is the
+         * define() that decides. Certificate verification is on by default; a site can
+         * still opt out from wp-config.php before the SDK loads.
+         */
+        define( 'FS_SDK__SSLVERIFY', true );
     }

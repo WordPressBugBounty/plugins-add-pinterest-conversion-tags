@@ -620,3 +620,31 @@ input:checked+.pctag-slider:before {
 .pctag-column.col-8 span {
     font-size: 12px;
 }
+/* Keep labels, switches and the settings sidebar readable on mobile. */
+@media (max-width: 782px) {
+    .pctag-containter .pctag-column {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        box-sizing: border-box;
+    }
+    .pctag-containter .pctag-main { margin-right: 0; }
+    .pctag-containter .pctag-sidebar { padding-left: 0; }
+    .pctag-containter .pctag-segment { padding: 16px; }
+    .pctag-containter .pctag-tooltip .pctag-tooltiptext {
+        display: none;
+        position: fixed;
+        left: 16px;
+        right: 16px;
+        top: auto;
+        width: auto;
+        max-height: 50vh;
+        overflow: auto;
+        box-sizing: border-box;
+    }
+    .pctag-containter .pctag-tooltip:hover .pctag-tooltiptext,
+    .pctag-containter .pctag-tooltip:focus-within .pctag-tooltiptext {
+        display: block;
+        visibility: visible;
+    }
+}
